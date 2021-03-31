@@ -19,10 +19,10 @@ function whileLoop(n) {
 }
 
 
-let i = 0;
+let num = 0;
 function incrementalVariable() {
-    i = i + 1;
-    return i;
+    num = num + 1;
+    return num;
 }
 
 
