@@ -19,14 +19,13 @@ function whileLoop(n) {
 }
 
 
-let num = 0;
-function incrementalVariable() {
-    num = num + 1;
-    return num;
-}
-
-
 function doWhileLoop(num) {
+  var i = 0;
+  function incrementalVariable() {
+      i = i + 1;
+      return i;
+  }
+  
     do {
         console.log("I run once regardless.")
     } while (incrementalVariable() < num);
